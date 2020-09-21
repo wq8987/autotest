@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="wq.autotest.NewTestNG"/>
+    </classes>
+  </test>
+  <test name="testGroup">
+        <groups>
+	    <run>
+		<include name="tests1" />
+		<include name="tests2" />
+	    </run>
+	</groups>
+	<classes>
+	    <class name="wq.autotest.TestByNG" />
+	</classes>
+    </test>
+</suite> <!-- Suite -->
